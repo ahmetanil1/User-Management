@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komite 1</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+
+<body>
+<!--
+        SEARCH YAPARKEN VUE.JS DOSYASINDA REACTİVİTY'E BAK
+-->
+    <div id="app">
+        <h2 style="margin-left:20px;">Users Managament</h2>
+        <div class="search">
+            <input v-model ="search" placeholder="Search" class="search-bar" type="text">
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Rent</th>
+                    <th>District</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="(user,index) in filteredList" :key="index">
+                    
+                    <td>{{ user.name }}</td>
+                    <td>{{ user.email}}</td>
+                    <td>{{ user.rent }}</td>
+                    <td>{{ user.district }}</td>
+                    <td>{{ user.age }}</td>
+                    <td class="btn">
+                        <button id="btn-first" class="btn-item" @click="deleteUser(index)">Delete</button>
+                        <button class="btn-item" @click="editUser(index)"><a href="#edit">Edit</a></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+            <p class="item-count"> {{ itemCount }} adet kullanıcı vardır</p>
+        
+       
+        
+        <div v-if="showAddForm" class="edit-form">
+            <h4 id="edit" style="font-size: 20px;">{{ editingIndex > -1 ? 'Edit User' : 'Add User'}}</h4>
+            <br>
+            <form @submit.prevent="addUser">
+                <div class="add-user-form">
+                    <label for="name" class="label">Name:</label>
+                    <input type="text" v-model="newUser.name" class="input" placeholder="  Enter your name" required>
+
+                    <label for="email" class="label">Email:</label>
+                    <input type="email" v-model="newUser.email" class="input" placeholder="  Enter your e-mail" required>
+
+                    <label for="rent" class="label">Rent</label>
+                    <input type="number" v-model="newUser.rent" class="input" placeholder="  Enter your rent" required>
+
+                    <label for="district" class="label">District</label>
+                    <input type="text" v-model="newUser.district" class="input" placeholder="  Enter your district" required>
+
+                    <label for="age" class="label">Age</label>
+                    <input type="number" v-model="newUser.age" class="input" placeholder="  Enter your age" required>
+                </div>
+                <button class="add-btn" type="submit">{{ editingIndex > -1 ? 'Update' : 'Add' }}</button>
+                <button type="button" @click="cancelEdit" v-if="editingIndex > -1" class="add-btn">Cancel</button>
+            </form>
+        </div>
+
+        </div>
+       
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

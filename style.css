@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+body{
+    background-color: rgba(8, 6, 6, 0.778);
+    color: #fff;
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid #bfbfbf;
+    padding: 8px;
+    text-align: center;
+}
+
+.btn{
+    display: flex; 
+    justify-content: center;
+    width: 100½;
+    
+}
+.btn-item {
+    display: flex;
+    margin:3px ;
+    padding:5px;
+    border-radius: 5px;
+    color:black;
+    cursor: pointer;
+    border: 2px solid rgba(51,51,51,.5);
+    font-size: 14px;
+
+}.btn-item:hover{
+    scale: 1.05;
+    background-color: rgba(51,51,51,.5);
+    color: #fff;
+    border-color: #fff;
+}
+
+
+.add-user-form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid ;
+    width: max-content;
+    border-radius:5px ;
+}
+.input{
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.label{
+    margin: 5px;
+}
+.add-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin: 100px;
+    
+}
+.add-btn{
+    width: 70px;
+    padding:5px;
+    margin-top:10px;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+.add-btn:hover{
+    scale: 1.05;
+    background-color: rgba(51,51,51,.5);
+    color: #fff;
+    border-color: #fff;
+}
+.add-user-btn{
+    border: 2px solid #bfbfbf;
+    width: 80px;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+    cursor: pointer;
+    padding: 3px 8px;
+}
+.add-user-btn:hover{
+    scale: 1.05;
+    background-color: rgba(51,51,51,.5);
+    color: #fff;
+    border-color: #fff;
+}
+.edit-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin: 100px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.item-count{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+     
+}  
+.search{
+    background-color: inherit;
+    width: 220px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left:20px;   
+
+
+}
+.search-bar{
+    width: 200px;
+    margin-left:10px;
+    font-family: inherit;
+    height:30px;    
+    border-color: #fff;
+    border: 0; 
+}
+.search-bar:focus{
+    outline: 0;
+}

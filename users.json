@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Ahmet Yorgancı",
+    "age": 21,
+    "rent": 7200,
+    "district": "Çankırı",
+    "email": "amtyrgnc@gmail.com"
+  },
+  {
+    "name": "Mert Emir Kaya",
+    "age": 21,
+    "rent": 4500,
+    "district": "Manisa",
+    "email": "mertemir@sufle.com"
+  },
+  {
+    "name": "John Smith",
+    "age": 28,
+    "rent": 5000,
+    "district": "Manisa",
+    "email": "john.smith@example.com"
+  },
+  {
+    "name": "Alice Johnson",
+    "age": 35,
+    "rent": 6000,
+    "district": "Manisa",
+    "email": "alice.johnson@example.com"
+  },
+  {
+    "name": "Bob Williams",
+    "age": 40,
+    "rent": 5500,
+    "district": "Los Angeles",
+    "email": "bob.williams@example.com"
+  },
+  {
+    "name": "Emily Davis",
+    "age": 26,
+    "rent": 4800,
+    "district": "Minneapolis",
+    "email": "emily.davis@example.com"
+  },
+  {
+    "name": "Daniel Brown",
+    "age": 32,
+    "rent": 5200,
+    "district": "Minneapolis",
+    "email": "daniel.brown@example.com"
+  },
+  {
+    "name": "Sophia Miller",
+    "age": 24,
+    "rent": 4700,
+    "district": "Manisa",
+    "email": "sophia.miller@example.com"
+  },
+  {
+    "name": "Ethan Wilson",
+    "age": 29,
+    "rent": 4900,
+    "district": "Manisa",
+    "email": "ethan.wilson@example.com"
+  },
+  {
+    "name": "Olivia Garcia",
+    "age": 31,
+    "rent": 5800,
+    "district": "Manisa",
+    "email": "olivia.garcia@example.com"
+  },
+  {
+    "name": "Aiden Martinez",
+    "age": 27,
+    "rent": 5300,
+    "district": "Miami",
+    "email": "aiden.martinez@example.com"
+  },
+  {
+    "name": "Mia Robinson",
+    "age": 33,
+    "rent": 5600,
+    "district": "San Diego",
+    "email": "mia.robinson@example.com"
+  },
+  {
+    "name": "Liam Clark",
+    "age": 22,
+    "rent": 5100,
+    "district": "Portland",
+    "email": "liam.clark@example.com"
+  },
+  {
+    "name": "Ava Lee",
+    "age": 36,
+    "rent": 6200,
+    "district": "Portland",
+    "email": "ava.lee@example.com"
+  },
+  {
+    "name": "Noah Turner",
+    "age": 25,
+    "rent": 5400,
+    "district": "Portland",
+    "email": "noah.turner@example.com"
+  },
+  {
+    "name": "Emma Hernandez",
+    "age": 38,
+    "rent": 6700,
+    "district": "Dallas",
+    "email": "emma.hernandez@example.com"
+  },
+  {
+    "name": "Carter Young",
+    "age": 30,
+    "rent": 5900,
+    "district": "Portland",
+    "email": "carter.young@example.com"
+  },
+  {
+    "name": "Avery Cooper",
+    "age": 23,
+    "rent": 4600,
+    "district": "Dallas",
+    "email": "avery.cooper@example.com"
+  },
+  {
+    "name": "James Patel",
+    "age": 34,
+    "rent": 6000,
+    "district": "Dallas",
+    "email": "james.patel@example.com"
+  },
+  {
+    "name": "Lily Brooks",
+    "age": 37,
+    "rent": 6400,
+    "district": "Dallas",
+    "email": "lily.brooks@example.com"
+  },
+  {
+    "name": "Logan Smith",
+    "age": 26,
+    "rent": 5100,
+    "district": "Minneapolis",
+    "email": "logan.smith@example.com"
+  }
+]
